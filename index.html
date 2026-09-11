@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Alpujarra y Valle de Lecrín. Historias, territorio y comunicación rural." />
+  <title>Alpujarra y Valle de Lecrín</title>
+  <style>
+    :root{
+      --bg:#f5f2ea;
+      --ink:#1f2a24;
+      --muted:#667067;
+      --card:#ffffff;
+      --line:#ded8cc;
+      --max:1120px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Arial, Helvetica, sans-serif;
+      color:var(--ink);
+      background:var(--bg);
+      line-height:1.6;
+    }
+    a{color:inherit}
+    .wrap{max-width:var(--max);margin:auto;padding:0 24px}
+    header{
+      position:sticky;top:0;z-index:10;
+      background:rgba(245,242,234,.94);
+      border-bottom:1px solid var(--line);
+      backdrop-filter:blur(8px)
+    }
+    nav{
+      min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px
+    }
+    .brand{font-weight:700;text-decoration:none}
+    .navlinks{display:flex;gap:20px;flex-wrap:wrap}
+    .navlinks a{text-decoration:none;color:var(--muted);font-size:.95rem}
+    section{padding:76px 0}
+    .hero{padding:112px 0 88px}
+    .eyebrow{
+      text-transform:uppercase;letter-spacing:.14em;font-size:.78rem;
+      color:var(--muted);font-weight:700
+    }
+    h1{font-size:clamp(2.6rem,7vw,5.5rem);line-height:1.02;margin:.3em 0 .25em;max-width:900px}
+    h2{font-size:clamp(2rem,4vw,3rem);line-height:1.1;margin:0 0 24px}
+    h3{margin-top:0}
+    .lead{font-size:clamp(1.1rem,2.2vw,1.45rem);max-width:760px;color:var(--muted)}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}
+    .btn{
+      display:inline-block;padding:12px 18px;border-radius:999px;
+      text-decoration:none;border:1px solid var(--ink)
+    }
+    .btn.primary{background:var(--ink);color:white}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{
+      background:var(--card);border:1px solid var(--line);
+      border-radius:18px;padding:24px
+    }
+    .work{
+      min-height:190px;display:flex;flex-direction:column;justify-content:flex-end
+    }
+    .work small{color:var(--muted)}
+    .stats{display:flex;gap:28px;flex-wrap:wrap;margin-top:30px}
+    .stat strong{font-size:1.8rem;display:block}
+    footer{padding:34px 0;border-top:1px solid var(--line);color:var(--muted)}
+    @media (max-width:800px){
+      .grid{grid-template-columns:1fr}
+      .navlinks{display:none}
+      section{padding:58px 0}
+      .hero{padding:88px 0 68px}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <a class="brand" href="#inicio">Alpujarra y Valle de Lecrín</a>
+        <div class="navlinks">
+          <a href="#proyecto">Proyecto</a>
+          <a href="#hacemos">Qué hacemos</a>
+          <a href="#trabajos">Trabajos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap">
+        <div class="eyebrow">Historias · Territorio · Comunicación rural</div>
+        <h1>Alpujarra y Valle de Lecrín</h1>
+        <p class="lead">
+          Descubrimos, documentamos y ponemos en valor las personas, el patrimonio,
+          la historia, los negocios y los paisajes de la Alpujarra y el Valle de Lecrín.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="#proyecto">Descubre el proyecto</a>
+          <a class="btn" href="#contacto">Trabaja con nosotros</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyecto">
+      <div class="wrap">
+        <div class="eyebrow">El proyecto</div>
+        <h2>Un territorio contado desde dentro.</h2>
+        <p class="lead">
+          Alpujarra y Valle de Lecrín nace en junio de 2025 con una misión:
+          contribuir a poner en valor un territorio rural extraordinario a través de sus historias.
+          Recorremos pueblos, recuperamos memoria y patrimonio, conocemos a quienes viven y trabajan
+          en ellos y mostramos proyectos, gastronomía, alojamientos y formas de vida vinculadas al territorio.
+        </p>
+        <div class="stats">
+          <div class="stat"><strong>+27.000</strong><span>seguimientos multiplataforma</span></div>
+          <div class="stat"><strong>+300</strong><span>contenidos publicados</span></div>
+          <div class="stat"><strong>20</strong><span>episodios de podcast</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="hacemos">
+      <div class="wrap">
+        <div class="eyebrow">Qué hacemos</div>
+        <h2>Contenido y comunicación vinculados al territorio.</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Contenido &amp; Storytelling</h3>
+            <p>Creamos fotografía, vídeo y relatos audiovisuales para negocios y proyectos que necesitan contar mejor quiénes son y qué los hace diferentes.</p>
+          </article>
+          <article class="card">
+            <h3>Comunicación Continua</h3>
+            <p>Diseñamos y producimos contenido de forma periódica para proyectos que buscan una comunicación coherente, profesional y conectada con su identidad.</p>
+          </article>
+          <article class="card">
+            <h3>Proyectos de Territorio</h3>
+            <p>Desarrollamos contenidos, campañas e historias para ayuntamientos, asociaciones, instituciones y entidades que trabajan por la divulgación y puesta en valor del territorio.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="trabajos">
+      <div class="wrap">
+        <div class="eyebrow">Selección de trabajos</div>
+        <h2>Una muestra de lo que sabemos contar.</h2>
+        <div class="grid">
+          <article class="card work"><small>Alojamientos</small><h3>Concha</h3></article>
+          <article class="card work"><small>Sabores</small><h3>Los Trotamundos</h3></article>
+          <article class="card work"><small>Personas</small><h3>Los huevos de Bea</h3></article>
+          <article class="card work"><small>Territorio</small><h3>Acehuche</h3></article>
+          <article class="card work"><small>Patrimonio</small><h3>Castillo de Restábal</h3></article>
+          <article class="card work"><small>Selección audiovisual</small><h3>Próximamente</h3></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="wrap">
+        <div class="eyebrow">Contacto</div>
+        <h2>¿Tienes un proyecto vinculado al territorio?</h2>
+        <p class="lead">
+          Si eres un negocio, alojamiento, institución, asociación o proyecto rural y crees que podemos trabajar juntos, cuéntanos tu idea.
+        </p>
+        <div class="actions">
+          <a class="btn primary" href="mailto:alpujarraidea@gmail.com">alpujarraidea@gmail.com</a>
+          <a class="btn" href="https://wa.me/" target="_blank" rel="noopener">WhatsApp</a>
+        </div>
+        <p style="margin-top:24px;color:var(--muted)">
+          Instagram · Facebook · TikTok · YouTube
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© 2026 Alpujarra y Valle de Lecrín</div>
+  </footer>
+</body>
+</html>
